@@ -12,3 +12,21 @@ Description:
   - Add '>' definition for use '>>>9.99' and accepting values like '8.30', '98.12', '142.34'.
 
 Version: 1.4
+
+How to use
+---------------------
+<blockquote>
+  
+  $(".cifraReal").mask("R$ >>>>9,99");
+  
+  $(".data").mask("99/99/9999");
+  
+  $(".hora").mask("99:99");
+  
+  $(".cnpj").mask("99.999.999/9999-99");
+  
+  $(".cep").mask("99999-999");
+  
+  $(".phone").mask("(99) 9999-9999");
+
+<blockquote>
